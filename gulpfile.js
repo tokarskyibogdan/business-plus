@@ -1,7 +1,6 @@
 const gulp = require('gulp');
 const stylus = require('gulp-stylus');
 const nib = require('nib');
-const bootstrap = require('bootstrap-styl');
 const plumber = require('gulp-plumber');
 
 gulp.task('stylus', function () {
@@ -10,7 +9,7 @@ gulp.task('stylus', function () {
         .pipe(plumber())
         .pipe( stylus({
             compress: true,
-            use: [bootstrap(), nib()]
+            use: [nib()]
         }))
         .pipe(gulp.dest('./css/'));
 });
