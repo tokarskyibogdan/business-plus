@@ -1,2 +1,5 @@
 # business-plus
-GeekHub Homework №11
+GeekHub Homework
+
+
+``` $ npm init ``` for downloading libraries
