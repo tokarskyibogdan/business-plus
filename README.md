@@ -2,4 +2,4 @@
 GeekHub Homework
 
 
-``` $ npm init ``` for downloading libraries
+``` $ npm i ``` for downloading libraries
