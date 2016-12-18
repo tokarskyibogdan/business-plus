@@ -1,6 +1,8 @@
 # business-plus
 GeekHub Homework
 
+### to download all libraries run command below in project root
+###```$ npm i```
 
-``` $ npm i ``` for downloading libraries
-``` $ gulp default ``` will start all compiling tasks
+### to compile stylus files run command below in project root
+###```$ gulp default```
