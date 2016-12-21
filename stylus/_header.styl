@@ -59,7 +59,7 @@
     display block
     width 100%
     opacity 0.4
-    min-height: 395px
+    min-height 395px
 
 .navbar-nav .nav-item+.nav-item
   margin-left 0
@@ -82,3 +82,18 @@ li
 .navbar-brand
   padding 0
   margin 0
+
+.dropdown-arrow
+  &:after
+    border solid transparent
+    content " "
+    height 0
+    width: 0
+    position absolute
+    pointer-events none
+    border-top-color #ffffff
+    border-width 4px
+    right 114px
+    top 16px
+  &:hover
+    color #ffaf36
