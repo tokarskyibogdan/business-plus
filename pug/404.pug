@@ -6,7 +6,7 @@ html(lang="en")
         link(href="https://fonts.googleapis.com/css?family=Lora:400i|Open+Sans|Open+Sans:300|Open+Sans:700|Raleway|Raleway:800|Raleway:700|Montserrat" rel="stylesheet")
         link(href="../css/main.css" rel="stylesheet")
         link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css")
-        link(rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css")
+        link(rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css")
     body
         div.header-section
             div.container.padding-left-right-none
@@ -43,7 +43,59 @@ html(lang="en")
                                     a.nav-link(href="home.html") HOME
         div.banner
             img(src="../img/404-banner.jpeg")
-
-
-
-
+        section
+            div.container.arrows
+                div.row.error-section
+                    h1 ERROR
+                        b 404
+                    h1 NOT FOUND
+                    p You may have mis-typed the URL Or the page has been removed
+        footer
+            div.container
+                div.row.footer-content
+                    div.logo-and-share.col-xs-4.padding-left-none
+                        a(href="#")
+                            img(src="../img/logo.png")
+                        p.lawer 2015 © LAWYER
+                        ul.social-buttons
+                            li
+                                a(href="#")
+                                    div.btn.fb-btn
+                                        i.fa.fa-facebook(aria-hidden="true")
+                            li
+                                a(href="#")
+                                    div.btn.gl-btn
+                                        i.fa.fa-google-plus(aria-hidden="true")
+                            li
+                                a(href="#")
+                                    div.btn.tw-btn
+                                        i.fa.fa-twitter(aria-hidden="true")
+                            li
+                                a(href="#")
+                                    div.btn.li-btn
+                                        i.fa.fa-linkedin(aria-hidden="true")
+                    div.form-and-nav.col-xs-7
+                        div.footer-nav
+                            h3 NAVIGATION
+                            ul
+                                li
+                                    a(href="home.html") HOME
+                                li
+                                    a(href="about-us.html") ABOUT US
+                                li
+                                    a(href="services.html") SERVICES
+                                li
+                                    a(href="testimonial.html") TESTIMONIAL
+                                li
+                                    a(href="blog.html") BLOG
+                                li
+                                    a(href="contact-us.html") CONTACT US
+                        form
+                            div.footer-form
+                                h3.footer-title QUICK CONTACT US
+                                div.name-email
+                                    input(placeholder="Name *" required type="text").input.name-input
+                                    input(placeholder="Email *" required type="email").input.email-input
+                                textarea(placeholder="Comment *").textarea
+                                a(href="#").submit
+                                    div.submit-bg SUBMIT NOW

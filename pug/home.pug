@@ -1,0 +1,268 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title Home
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous")
+        link(href="https://fonts.googleapis.com/css?family=Lora:400i|Open+Sans|Open+Sans:300|Open+Sans:700|Raleway|Raleway:800|Raleway:700|Montserrat" rel="stylesheet")
+        link(href="../css/main.css" rel="stylesheet")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css")
+        link(rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css")
+    body
+        div.header-section
+            div.container.padding-left-right-none
+                div.row.header
+                    div.logo-and-phone.col-xs-4
+                        a.navbar-brand
+                            img(src="../img/logo.png")
+                        div.phone
+                            i.icon-call-out
+                            a.phone-number(href="tel:+99788856999") +9978 8856 999
+                    div.header-nav.col-xs-8
+                        nav.navbar.padding-right-none
+                            ul.nav.navbar-nav
+                                li.nav-item
+                                    a.nav-link(href="contact-us.html") CONTACT US
+                                li.nav-item
+                                    a.nav-link.dropdown-arrow(href="faq.html") PAGES
+                                    ul.dropdown
+                                        li
+                                            a.nav-link(href="faq.html") FAQ
+                                        li
+                                            a.nav-link(href="careers.html") CAREERS
+                                        li
+                                            a.nav-link(href="testimonial.html") TESTIMONIAL
+                                li.nav-item
+                                    a.nav-link(href="blog.html") BLOG
+                                li.nav-item
+                                    a.nav-link(href="news.html") NEWS
+                                li.nav-item
+                                    a.nav-link(href="services.html") SERVICES
+                                li.nav-item
+                                    a.nav-link(href="about-us.html") ABOUT US
+                                li.nav-item
+                                    a.nav-link.active(href="home.html") HOME
+        div.carousel.slide.margin-bottom(data-ride="carousel")#carousel-example-generic
+            ol.carousel-indicators
+                li(data-target="#carousel-example-generic" data-sldie-to="0").active
+                li(data-target="#carousel-example-generic" data-sldie-to="1")
+                li(data-target="#carousel-example-generic" data-sldie-to="2")
+            div.carousel-inner(role="listbox")
+                div.carousel-item.active
+                    img(src="../img/home-banner-1.jpeg" alt="First slide")
+                    div.carousel-caption
+                        div.container
+                            div.row
+                                h6 WELCOME TO
+                                h1 BUSINESS PLUS
+                                p.featured-post Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.
+                                a.submit(href="#")
+                                    div.submit-bg READ MORE
+                div.carousel-item
+                    img(src="../img/home-banner-2.jpeg" alt="Second slide")
+                    div.carousel-caption
+                        div.container
+                            div.row
+                                h6 WELCOME TO
+                                h1 GEEKHUB SEASON 6
+                                p.featured-post Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.
+                                a.submit(href="#")
+                                    div.submit-bg READ MORE
+                div.carousel-item
+                    img(src="../img/home-banner-3.jpeg" alt="Third slide")
+                    div.carousel-caption
+                        div.container
+                            div.row
+                                h6 WELCOME TO
+                                h1 HOMEWORK 11
+                                p.featured-post Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever.
+                                a.submit(href="#")
+                                    div.submit-bg READ MORE
+        section.careers-section
+            div.container.padding-bottom
+                div.row.our-short-story
+                    div.col-xs-3.padding-left-right-none.blog-header
+                        h1.blog-page-header ABOUT US
+                        p.featured-post Our short story
+                    div.col-xs-7.offset-xs-2.padding-left-right-none
+                        p.post-text.margin-top-none Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        a.submit(href="about-us.html")
+                            div.submit-bg READ MORE
+        section.light-section.padding-top
+            div.container.padding-bottom.arrows
+                div.row
+                    div.col-xs-12.padding-left-right-none
+                        div.blog-header
+                            h1.blog-page-header SERVICES
+                            p.featured-post What we are doing
+                div.row
+                    div.col-xs-6.padding-left-right-none
+                        div.our-offer.service
+                            span.icon-rocket.active-service
+                            h5 BOOSTING YOUR BUSINESS
+                            p Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry'
+                    div.col-xs-6.padding-left-right-none
+                        div.our-offer.service
+                            span.icon-user-following
+                            h5 ONLINE SUPPORT
+                            p Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry'
+                div.row
+                    div.col-xs-6.padding-left-right-none
+                        div.our-offer.service
+                            span.icon-support
+                            h5 ANALYZING BUSSINESS STRATEGY
+                            p Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry'
+                    div.col-xs-6.padding-left-right-none
+                        div.our-offer.service
+                            span.icon-clock
+                            h5 TIME MANAGMENT
+                            p Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry'
+                div.row.services-section-button
+                    a.submit(href="services.html")
+                        div.submit-bg VIEW MORE
+        section
+            div.container.padding-bottom.clients-coments-section
+                div.row
+                    div.col-xs-12.padding-left-right-none
+                        div.blog-header
+                            h1.blog-page-header CLIENTS
+                            p.featured-post Whats our clients says
+                div.row
+                    div.col-xs-4.padding-left-right-none
+                        div.blog-post.clients-comment
+                            i.fa.fa-quote-left(aria-hidden="true")
+                            p.comment-text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                            img(src="../img/client-comentator-1.png")
+                            h5 Krishnan Unni
+                            p.person-status Designation
+                    div.col-xs-4.padding-left-right-none
+                        div.blog-post.clients-comment
+                            i.fa.fa-quote-left.color-blue(aria-hidden="true")
+                            p.comment-text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                            img(src="../img/client-comentator-2.png")
+                            h5 Krishnan Unni
+                            p.person-status Designation
+                    div.col-xs-4.padding-left-right-none
+                        div.blog-post.clients-comment
+                            i.fa.fa-quote-left.color-orange(aria-hidden="true")
+                            p.comment-text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                            img(src="../img/client-comentator-3.png")
+                            h5 Krishnan Unni
+                            p.person-status Designation
+                div.row
+                    div.col-xs-12.padding-left-none
+                        ul.clients-pagination
+                            li.active
+                            li
+                            li
+        section.light-section.padding-bottom.padding-top
+            div.container
+                div.row
+                    div.col-xs-12.padding-left-right-none
+                        div.blog-header
+                            h1.blog-page-header NEWS
+                            p.featured-post From Our Blog
+                div.row
+                    div.col-xs-1.padding-left-right-none
+                        ul.news-details
+                            li.news-date
+                                h3 30
+                                p Oct-2015
+                            li
+                                span.icon-bubbles
+                                p 8- Com
+                            li
+                                span.icon-eye
+                                p 16- View
+                    div.col-xs-5.padding-left-right-none.main-new
+                        div.main-new-img
+                            img(src="../img/main-new-img.jpeg")
+                        h5 Blog Heading
+                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...
+                    div.col-xs-6.padding-left-right-none.secondary-news
+                        div.secondary-new
+                            h5 Blog Heading
+                            time 30 - Oct -2015
+                            p.border-bottom Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...
+                        div.secondary-new
+                            h5 Blog Heading
+                            time 1 - Nov -2015
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...
+                        a.submit(href="news.html")
+                            div.submit-bg VIEW MORE
+        section
+        div.container.arrows.padding-bottom.padding-top.partners-section
+            div.row
+                div.col-xs-12.padding-left-right-none
+                    div.blog-header
+                        h1.blog-page-header PARTNERS
+                        p.featured-post Our Great Partners
+            div.row.clients-top
+                div.col-xs-2
+                    img(src="../img/client1.png")
+                div.col-xs-2
+                    img(src="../img/client2.png")
+                div.col-xs-2
+                    img(src="../img/client3.png")
+                div.col-xs-2
+                    img(src="../img/client4.png")
+                div.col-xs-2
+                    img(src="../img/client5.png")
+                div.col-xs-2
+                    img(src="../img/client6.png")
+            div.row
+                dov.col-xs-12.padding-left-none
+                ul.clients-pagination
+                    li.active
+                    li
+                    li
+        footer
+            div.container
+                div.row.footer-content
+                    div.logo-and-share.col-xs-4.padding-left-none
+                        a(href="#")
+                            img(src="../img/logo.png")
+                        p.lawer 2015 © LAWYER
+                        ul.social-buttons
+                            li
+                                a(href="#")
+                                    div.btn.fb-btn
+                                        i.fa.fa-facebook(aria-hidden="true")
+                            li
+                                a(href="#")
+                                    div.btn.gl-btn
+                                        i.fa.fa-google-plus(aria-hidden="true")
+                            li
+                                a(href="#")
+                                    div.btn.tw-btn
+                                        i.fa.fa-twitter(aria-hidden="true")
+                            li
+                                a(href="#")
+                                    div.btn.li-btn
+                                        i.fa.fa-linkedin(aria-hidden="true")
+                    div.form-and-nav.col-xs-7
+                        div.footer-nav
+                            h3 NAVIGATION
+                            ul
+                                li
+                                    a(href="home.html").footer-active-url HOME
+                                li
+                                    a(href="about-us.html") ABOUT US
+                                li
+                                    a(href="services.html") SERVICES
+                                li
+                                    a(href="testimonial.html") TESTIMONIAL
+                                li
+                                    a(href="blog.html") BLOG
+                                li
+                                    a(href="contact-us.html") CONTACT US
+                        form
+                            div.footer-form
+                                h3.footer-title QUICK CONTACT US
+                                div.name-email
+                                    input(placeholder="Name *" required type="text").input.name-input
+                                    input(placeholder="Email *" required type="email").input.email-input
+                                textarea(placeholder="Comment *").textarea
+                                a(href="#").submit
+                                    div.submit-bg SUBMIT NOW
+        script(src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
+        script(src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous")
