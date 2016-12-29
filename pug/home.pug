@@ -41,14 +41,14 @@ html(lang="en")
                                     a.nav-link(href="about-us.html") ABOUT US
                                 li.nav-item
                                     a.nav-link.active(href="home.html") HOME
-        div.carousel.slide.margin-bottom(data-ride="carousel")#carousel-example-generic
+        div#carousel-example-generic.carousel.slide.margin-bottom(data-ride='carousel')
             ol.carousel-indicators
-                li(data-target="#carousel-example-generic" data-sldie-to="0").active
-                li(data-target="#carousel-example-generic" data-sldie-to="1")
-                li(data-target="#carousel-example-generic" data-sldie-to="2")
+                li.active(data-target='#carousel-example-generic', data-slide-to='0')
+                li(data-target='#carousel-example-generic', data-slide-to='1')
+                li(data-target='#carousel-example-generic', data-slide-to='2')
             div.carousel-inner(role="listbox")
                 div.carousel-item.active
-                    img(src="../img/home-banner-1.jpeg" alt="First slide")
+                    img(src="../img/home-banner-1.jpeg", alt="First slide")
                     div.carousel-caption
                         div.container
                             div.row
@@ -58,7 +58,7 @@ html(lang="en")
                                 a.submit(href="#")
                                     div.submit-bg READ MORE
                 div.carousel-item
-                    img(src="../img/home-banner-2.jpeg" alt="Second slide")
+                    img(src="../img/home-banner-2.jpeg", alt="Second slide")
                     div.carousel-caption
                         div.container
                             div.row
@@ -68,7 +68,7 @@ html(lang="en")
                                 a.submit(href="#")
                                     div.submit-bg READ MORE
                 div.carousel-item
-                    img(src="../img/home-banner-3.jpeg" alt="Third slide")
+                    img(src="../img/home-banner-3.jpeg", alt="Third slide")
                     div.carousel-caption
                         div.container
                             div.row

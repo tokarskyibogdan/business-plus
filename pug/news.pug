@@ -1,0 +1,150 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title News
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous")
+        link(href="https://fonts.googleapis.com/css?family=Lora:400i|Open+Sans|Open+Sans:300|Open+Sans:700|Raleway|Raleway:800|Raleway:700|Montserrat" rel="stylesheet")
+        link(href="../css/main.css" rel="stylesheet")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css")
+        link(rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css")
+    body
+        div.header-section
+            div.container.padding-left-right-none
+                div.row.header
+                    div.logo-and-phone.col-xs-4
+                        a.navbar-brand
+                            img(src="../img/logo.png")
+                        div.phone
+                            i.icon-call-out
+                            a.phone-number(href="tel:+99788856999") +9978 8856 999
+                    div.header-nav.col-xs-8
+                        nav.navbar.padding-right-none
+                            ul.nav.navbar-nav
+                                li.nav-item
+                                    a.nav-link(href="contact-us.html") CONTACT US
+                                li.nav-item
+                                    a.nav-link.dropdown-arrow(href="faq.html") PAGES
+                                    ul.dropdown
+                                        li
+                                            a.nav-link(href="faq.html") FAQ
+                                        li
+                                            a.nav-link(href="careers.html") CAREERS
+                                        li
+                                            a.nav-link(href="testimonial.html") TESTIMONIAL
+                                li.nav-item
+                                    a.nav-link(href="blog.html") BLOG
+                                li.nav-item
+                                    a.nav-link.active(href="news.html") NEWS
+                                li.nav-item
+                                    a.nav-link(href="services.html") SERVICES
+                                li.nav-item
+                                    a.nav-link(href="about-us.html") ABOUT US
+                                li.nav-item
+                                    a.nav-link(href="home.html") HOME
+        div.banner
+            img(src="../img/news-banner.jpeg")
+        section
+            div.container.padding-bottom
+                div.row
+                    div.col-xs-12.blog-header.padding-left-right-none
+                        h1.blog-page-header NEWS
+                        p.featured-post Featured News
+                div.row
+                    div.col-xs-2.padding-left-right-none.news-post-date
+                        time.white-date-flag OCTOBER-20-05
+                    div.col-xs-4.news-post-img
+                        img(src="../img/news-post-img1.png")
+                    div.col-xs-6.news-post-content
+                        h5 News heading here
+                        p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                        ul
+                            li
+                                i.fa.fa-check
+                                | Nam nec urna facilisis, viverra arcu id, aliquam nulla.
+                            li
+                                i.fa.fa-check
+                                | Donec ac risus molestie, porta elit vel, hendrerit orci.
+                            li
+                                i.fa.fa-check
+                                | Aenean in sapien sed mauris tincidunt posuere.
+        section.light-section.padding-bottom.padding-top
+            div.container
+                div.row
+                    div.col-xs-2.padding-left-right-none.news-post-date
+                        time.light-date-flag OCTOBER-22-05
+                    div.col-xs-10.news-post-content.simple-post-content
+                        h5 News heading Here
+                        p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing. There are many variations of passages of Lorem.
+        section
+            div.container.padding-bottom.padding-top
+                div.row
+                    div.col-xs-2.padding-left-right-none.news-post-date
+                        time.white-date-flag OCTOBER-24-05
+                    div.col-xs-4.news-post-img.news-post-multi-img
+                        img(src="../img/news-post-img2.png")
+                        img(src="../img/news-post-img3.png")
+                        img(src="../img/news-post-img4.png")
+                    div.col-xs-6.news-post-content
+                        h5 News heading Here
+                        p Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem.
+                        blockquote
+                            p Normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages
+        section.light-section.padding-top
+            div.container.arrows.padding-bottom
+                div.row
+                    div.col-xs-2.padding-left-right-none.news-post-date
+                        time.light-date-flag OCTOBER-26-05
+                    div.col-xs-4.news-post-img
+                        img(src="../img/news-post-img5.png")
+                    div.col-xs-6.news-post-content
+                        h5 News heading Here
+                        p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        footer
+            div.container
+                div.row.footer-content
+                    div.logo-and-share.col-xs-4.padding-left-none
+                        a(href="#")
+                            img(src="../img/logo.png")
+                        p.lawer 2015 © LAWYER
+                        ul.social-buttons
+                            li
+                                a(href="#")
+                                    div.btn.fb-btn
+                                        i.fa.fa-facebook(aria-hidden="true")
+                            li
+                                a(href="#")
+                                    div.btn.gl-btn
+                                        i.fa.fa-google-plus(aria-hidden="true")
+                            li
+                                a(href="#")
+                                    div.btn.tw-btn
+                                        i.fa.fa-twitter(aria-hidden="true")
+                            li
+                                a(href="#")
+                                    div.btn.li-btn
+                                        i.fa.fa-linkedin(aria-hidden="true")
+                    div.form-and-nav.col-xs-7
+                        div.footer-nav
+                            h3 NAVIGATION
+                            ul
+                                li
+                                    a(href="home.html") HOME
+                                li
+                                    a(href="about-us.html") ABOUT US
+                                li
+                                    a(href="services.html") SERVICES
+                                li
+                                    a(href="testimonial.html") TESTIMONIAL
+                                li
+                                    a(href="blog.html") BLOG
+                                li
+                                    a(href="contact-us.html") CONTACT US
+                        form
+                            div.footer-form
+                                h3.footer-title QUICK CONTACT US
+                                div.name-email
+                                    input(placeholder="Name *" required type="text").input.name-input
+                                    input(placeholder="Email *" required type="email").input.email-input
+                                textarea(placeholder="Comment *").textarea
+                                a(href="#").submit
+                                    div.submit-bg SUBMIT NOW
