@@ -1,0 +1,33 @@
+div.header-section
+    div.container.padding-left-right-none
+        div.row.header
+            div.logo-and-phone.col-xs-4
+                a.navbar-brand
+                    img(src="../img/logo.png")
+                div.phone
+                    i.icon-call-out
+                    a.phone-number(href="tel:+99788856999") +9978 8856 999
+            div.header-nav.col-xs-8
+                nav.navbar.padding-right-none
+                    ul.nav.navbar-nav
+                        li.nav-item
+                            a.nav-link(href="contact-us.html" class=typeof contactUsActive === "undefined" ? "" : "active") CONTACT US
+                        li.nav-item
+                            a.nav-link.dropdown-arrow(href="faq.html" class=typeof pagesActive === "undefined" ? "" : "active") PAGES
+                            ul.dropdown
+                                li
+                                    a.nav-link(href="faq.html" class=typeof faqActive === "undefined" ? "" : "active") FAQ
+                                li
+                                    a.nav-link(href="careers.html" class=typeof careersActive === "undefined" ? "" : "active") CAREERS
+                                li
+                                    a.nav-link(href="testimonial.html" class=typeof testimonialActive === "undefined" ? "" : "active") TESTIMONIAL
+                        li.nav-item
+                            a.nav-link(href="blog.html" class=typeof blogActive === "undefined" ? "" : "active") BLOG
+                        li.nav-item
+                            a.nav-link(href="news.html" class=typeof newsActive === "undefined" ? "" : "active") NEWS
+                        li.nav-item
+                            a.nav-link(href="services.html" class=typeof servicesActive === "undefined" ? "" : "active") SERVICES
+                        li.nav-item
+                            a.nav-link(href="about-us.html" class=typeof aboutUsActive === "undefined" ? "" : "active") ABOUT US
+                        li.nav-item
+                            a.nav-link(href="home.html" class=typeof homeActive === "undefined" ? "" : "active") HOME

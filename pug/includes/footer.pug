@@ -1,0 +1,49 @@
+footer
+    div.container
+        div.row.footer-content
+            div.logo-and-share.col-xs-4.padding-left-none
+                a(href="#")
+                    img(src="../img/logo.png")
+                p.lawer 2015 © LAWYER
+                ul.social-buttons
+                    li
+                        a(href="#")
+                            div.btn.fb-btn
+                                i.fa.fa-facebook(aria-hidden="true")
+                    li
+                        a(href="#")
+                            div.btn.gl-btn
+                                i.fa.fa-google-plus(aria-hidden="true")
+                    li
+                        a(href="#")
+                            div.btn.tw-btn
+                                i.fa.fa-twitter(aria-hidden="true")
+                    li
+                        a(href="#")
+                            div.btn.li-btn
+                                i.fa.fa-linkedin(aria-hidden="true")
+            div.form-and-nav.col-xs-7
+                div.footer-nav
+                    h3 NAVIGATION
+                    ul
+                        li
+                            a(href="home.html" class=typeof homeActive === "undefined" ? "" : "footer-active-url") HOME
+                        li
+                            a(href="about-us.html" class=typeof aboutUsActive === "undefined" ? "" : "footer-active-url") ABOUT US
+                        li
+                            a(href="services.html" class=typeof servicesActive === "undefined" ? "" : "footer-active-url") SERVICES
+                        li
+                            a(href="testimonial.html" class=typeof testimonialActive === "undefined" ? "" : "footer-active-url") TESTIMONIAL
+                        li
+                            a(href="blog.html" class=typeof blogActive === "undefined" ? "" : "footer-active-url") BLOG
+                        li
+                            a(href="contact-us.html" class=typeof contactUsActive === "undefined" ? "" : "footer-active-url") CONTACT US
+                form
+                    div.footer-form
+                        h3.footer-title QUICK CONTACT US
+                        div.name-email
+                            input(placeholder="Name *" required type="text").input.name-input
+                            input(placeholder="Email *" required type="email").input.email-input
+                        textarea(placeholder="Comment *").textarea
+                        a(href="#").submit
+                            div.submit-bg SUBMIT NOW

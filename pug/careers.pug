@@ -1,46 +1,11 @@
+-var title = "Careers"
+-var careersActive = ""
+-var pagesActive = ""
+
 html(lang="en")
-    head
-        meta(charset="UTF-8")
-        title Careers
-        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous")
-        link(href="https://fonts.googleapis.com/css?family=Lora:400i|Open+Sans|Open+Sans:300|Open+Sans:700|Raleway|Raleway:800|Raleway:700|Montserrat" rel="stylesheet")
-        link(href="../css/main.css" rel="stylesheet")
-        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css")
-        link(rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css")
+    include includes/head
     body
-        div.header-section
-            div.container.padding-left-right-none
-                div.row.header
-                    div.logo-and-phone.col-xs-4
-                        a.navbar-brand
-                            img(src="../img/logo.png")
-                        div.phone
-                            i.icon-call-out
-                            a.phone-number(href="tel:+99788856999") +9978 8856 999
-                    div.header-nav.col-xs-8
-                        nav.navbar.padding-right-none
-                            ul.nav.navbar-nav
-                                li.nav-item
-                                    a.nav-link(href="contact-us.html") CONTACT US
-                                li.nav-item
-                                    a.nav-link.dropdown-arrow.active(href="faq.html") PAGES
-                                    ul.dropdown
-                                        li
-                                            a.nav-link(href="faq.html") FAQ
-                                        li
-                                            a.nav-link.active(href="careers.html") CAREERS
-                                        li
-                                            a.nav-link(href="testimonial.html") TESTIMONIAL
-                                li.nav-item
-                                    a.nav-link(href="blog.html") BLOG
-                                li.nav-item
-                                    a.nav-link(href="news.html") NEWS
-                                li.nav-item
-                                    a.nav-link(href="services.html") SERVICES
-                                li.nav-item
-                                    a.nav-link(href="about-us.html") ABOUT US
-                                li.nav-item
-                                    a.nav-link(href="home.html") HOME
+        include includes/header
         div.banner
             img(src="../img/careers-banner.jpeg")
         section.careers-section
@@ -160,54 +125,6 @@ html(lang="en")
                                         span.icon-arrow-down-circle
                             div#collapseFour.collapse(role="tabpanel", aria-labelledby="headingFour")
                                 div.card-block Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        footer
-            div.container
-                div.row.footer-content
-                    div.logo-and-share.col-xs-4.padding-left-none
-                        a(href="#")
-                            img(src="../img/logo.png")
-                        p.lawer 2015 © LAWYER
-                        ul.social-buttons
-                            li
-                                a(href="#")
-                                    div.btn.fb-btn
-                                        i.fa.fa-facebook(aria-hidden="true")
-                            li
-                                a(href="#")
-                                    div.btn.gl-btn
-                                        i.fa.fa-google-plus(aria-hidden="true")
-                            li
-                                a(href="#")
-                                    div.btn.tw-btn
-                                        i.fa.fa-twitter(aria-hidden="true")
-                            li
-                                a(href="#")
-                                    div.btn.li-btn
-                                        i.fa.fa-linkedin(aria-hidden="true")
-                    div.form-and-nav.col-xs-7
-                        div.footer-nav
-                            h3 NAVIGATION
-                            ul
-                                li
-                                    a(href="home.html") HOME
-                                li
-                                    a(href="about-us.html") ABOUT US
-                                li
-                                    a(href="services.html") SERVICES
-                                li
-                                    a(href="testimonial.html") TESTIMONIAL
-                                li
-                                    a(href="blog.html") BLOG
-                                li
-                                    a(href="contact-us.html") CONTACT US
-                        form
-                            div.footer-form
-                                h3.footer-title QUICK CONTACT US
-                                div.name-email
-                                    input(placeholder="Name *" required type="text").input.name-input
-                                    input(placeholder="Email *" required type="email").input.email-input
-                                textarea(placeholder="Comment *").textarea
-                                a(href="#").submit
-                                    div.submit-bg SUBMIT NOW
+        include includes/footer
         script(src='//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
         script(src='//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js', integrity='sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK', crossorigin='anonymous')
